@@ -5,6 +5,11 @@ class MainController extends CI_Controller {
 
 	public function index()
 	{
-		echo "Berhasil ke main";
+		$this->load->view('front/index.html');
+	}
+
+	public function info()
+	{
+		echo "Ini halaman info";
 	}
 }
