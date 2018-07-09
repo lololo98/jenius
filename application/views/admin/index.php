@@ -20,7 +20,7 @@
 				<a class="navbar-brand brand-logo" href="index.html">
 					<img src="<?= site_url('assets/admin/images/logo.svg') ?>" alt="logo" />
 				</a>
-				<a class="navbar-brand brand-logo-mini" href="index.html">
+				<a class="navbar-brand brand-logo-mini" href= # >
 					<img src="<?= site_url('assets/admin/images/logo-mini.svg') ?>" alt="logo" />
 				</a>
 			</div>
@@ -29,7 +29,6 @@
 					<li class="nav-item dropdown d-none d-xl-inline-block">
 						<a class="nav-link dropdown-toggle" id="UserDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
 							<span class="profile-text">Hello, Admin!</span>
-							<img class="img-xs rounded-circle" src="<?= site_url('assets/admin/images/faces/face2.jpg') ?>" alt="Profile image">
 						</a>
 					</li>
 				</ul>

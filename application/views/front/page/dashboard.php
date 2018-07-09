@@ -39,7 +39,7 @@
 						<img src="assets/front/images/sd.svg" class="svg" alt="">
 						<div class="hero_box_content">
 							<h2 class="hero_box_title">Elementary School</h2>
-							<a href="<?= base_url('jenjang/sd') ?>" class="hero_box_link">Lihat Semua</a>
+							<a href="<?= base_url('jenjang/SD') ?>" class="hero_box_link">Lihat Semua</a>
 						</div>
 					</div>
 				</div>
@@ -48,7 +48,7 @@
 						<img src="assets/front/images/books.svg" class="svg" alt="">
 						<div class="hero_box_content">
 							<h2 class="hero_box_title">Junior High School</h2>
-							<a href="<?= base_url('jenjang/smp') ?>" class="hero_box_link">view more</a>
+							<a href="<?= base_url('jenjang/SMP') ?>" class="hero_box_link">view more</a>
 						</div>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 						<img src="assets/front/images/sma.svg" class="svg" alt="">
 						<div class="hero_box_content">
 							<h2 class="hero_box_title">Senior High School</h2>
-							<a href="<?= base_url('jenjang/sma') ?>" class="hero_box_link">view more</a>
+							<a href="<?= base_url('jenjang/SMA') ?>" class="hero_box_link">view more</a>
 						</div>
 					</div>
 				</div>
@@ -66,38 +66,11 @@
 						<img src="assets/front/images/smk.svg" class="svg" alt="">
 						<div class="hero_box_content">
 							<h2 class="hero_box_title">Vocational High School</h2>
-							<a href="<?= base_url('jenjang/smk') ?>" class="hero_box_link">view more</a>
+							<a href="<?= base_url('jenjang/SMk') ?>" class="hero_box_link">view more</a>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</div>
-</div>
-<!-- Popular -->
-<div class="popular page_section">
-	<div class="container">
-		<div class="row">
-			<div class="col">
-				<div class="section_title text-center">
-					<h1>Popular Courses</h1>
-				</div>
-			</div>
-		</div>
-		<div class="row course_boxes">
-            <!-- Popular Course Item -->
-            <?php foreach($pelajaran as $data): ?>
-                <div class="col-lg-4 course_box">
-                    <div class="card" style="padding: 10px">
-                        <div class="card-body text-center">
-                            <div class="card-title">
-                                <a href="<?= base_url('jenjang/'.$data->JENJANG.'/'.$data->KELAS.'/'.$data->ID_PELAJARAN) ?>"><?= $data->PELAJARAN ?></a>
-                            </div>
-                            <div class="card-text"><?= $data->KETERANGAN ?></div>
-                        </div>
-                    </div>
-                </div>
-            <?php endforeach ?>
 		</div>
 	</div>
 </div>

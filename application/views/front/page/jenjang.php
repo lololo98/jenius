@@ -28,8 +28,8 @@
 			<div class="button button_color_1 text-center trans_200">
 				<a href="<?= base_url('jenjang/'.$jenjang.'/3') ?>">Kelas 3</a>
 			</div>
-        </div>
-        <?php if ($jenjang == 'SMP' || $jenjang == 'SMA' || $jenjang == 'SMK'): ?>
+		</div>
+		<?php if ($jenjang == 'SD'): ?> 
 		<div class="col-lg-4 button_col">
 			<div class="button button_color_1 text-center trans_200">
 				<a href="<?= base_url('jenjang/'.$jenjang.'/4') ?>">Kelas 4</a>

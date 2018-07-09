@@ -3,13 +3,10 @@
 		<li class="nav-item nav-profile">
 			<div class="nav-link">
 				<div class="user-wrapper">
-					<div class="profile-image">
-						<img src="<?= site_url('assets/admin/images/faces/face2.jpg') ?>" alt="profile image">
-					</div>
 					<div class="text-wrapper">
 						<p class="profile-name">Admin</p>
 						<div>
-							<small class="designation text-muted">Manager</small>
+							<small class="designation text-muted">Online</small>
 							<span class="status-indicator online"></span>
 						</div>
 					</div>

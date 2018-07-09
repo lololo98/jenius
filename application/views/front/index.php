@@ -32,7 +32,7 @@
                 <nav class="main_nav_container">
                     <div class="main_nav">
                         <ul class="main_nav_list">
-                            <li class="main_nav_item"><a href="<?= base_url() ?>">home</a></li>
+                            <li class="main_nav_item"><a href="<?= base_url() ?>">Home</a></li>
                         </ul>
                     </div>
                 </nav>
