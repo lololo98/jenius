@@ -5,7 +5,12 @@ class MainController extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('front/index.html');
+		$data = [
+			'pelajaran' => $this->db->limit(3)->get('TBL_PELAJARAN')->result(),
+			'halaman' => 'dashboard'
+		];
+
+		$this->load->view('front/index', $data);
 	}
 
 	public function info()

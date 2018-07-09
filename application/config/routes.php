@@ -4,7 +4,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // Main Controller
 $route['default_controller'] = 'MainController';
 $route['login'] = 'LoginController';
-$route['sd'] = 'JenjangController';
+$route['jenjang/(:any)'] = 'JenjangController/index/$1';
+$route['jenjang/(:any)/(:any)'] = 'JenjangController/mapel/$1/$2';
+$route['jenjang/(:any)/(:any)/(:any)'] = 'JenjangController/bab/$1/$2/$3';
 $route['matkul']= 'MatkulController';
 // Admin Route
 $route['admin'] = 'AdminController';
