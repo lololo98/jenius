@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 $route['default_controller'] = 'MainController';
 $route['login'] = 'LoginController';
 $route['sd'] = 'JenjangController';
+$route['matkul']= 'MatkulController';
 // Admin Route
 $route['admin'] = 'AdminController';
 $route['404_override'] = '';

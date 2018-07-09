@@ -100,34 +100,29 @@
         </div>
 
         <!-- Popular -->
-
-        <div class="buttons">
-            <div class="button_box_inner">
             <div class="container">
                 <div class="row">
-                        <div class="buttons_container">
+                
                                 <div class="col-lg-4 button_box_col">
-                                    <div class="button button_color_1 text-center trans_200"><a href="#">Read More</a></div>
+                                    <div class="button button_color_1 text-center trans_200"><a href="#">Kelas 1</a></div>
                                 </div>
                                 <div class="col-lg-4 button_box_col">
-                                    <div class="button button_color_1 text-center trans_200"><a href="#">Read More</a></div>
+                                    <div class="button button_color_1 text-center trans_200"><a href="#">Kelas 2</a></div>
                                 </div>
                                 <div class="col-lg-4 button_col">
-                                    <div class="button button_color_1 text-center trans_200"><a href="#">Read More</a></div>
+                                    <div class="button button_color_1 text-center trans_200"><a href="#">Kelas 3</a></div>
                                 </div>
                                 <div class="col-lg-4 button_col">
-                                    <div class="button button_color_1 text-center trans_200"><a href="#">Read More</a></div>
+                                    <div class="button button_color_1 text-center trans_200"><a href="#">Kelas 4</a></div>
                                 </div>
                                 <div class="col-lg-4 button_col">
-                                    <div class="button button_color_1 text-center trans_200"><a href="#">Read More</a></div>
+                                    <div class="button button_color_1 text-center trans_200"><a href="#">Kelas 5</a></div>
                                 </div>
                                 <div class="col-lg-4 button_col">
-                                    <div class="button button_color_1 text-center trans_200"><a href="#">Read More</a></div>
+                                    <div class="button button_color_1 text-center trans_200"><a href="#">Kelas 6</a></div>
                                 </div>
-                    </div> 
                </div>
             </div>
-        </div>
         <!-- Footer -->
 
         <footer class="footer">
